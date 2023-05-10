@@ -56,7 +56,7 @@ namespace ConsoleApp1
                 }
             }
             //shuffle array
-            Table.Coins = _table.Coins.OrderBy(_ => _rnd.Next()).ToList();
+            Table.Coins = _table.Coins.OrderBy(x => _rnd.Next()).ToList();
         }
 
         public void Start()
